@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hongyu Zhu</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Kanban.css" rel="stylesheet" type="text/css" />
+    <link href="Pomodoro.css" rel="stylesheet" type="text/css" />
+    <link href="Music.css" rel="stylesheet" type="text/css" />
+    <link href="FlowTime.css" rel="stylesheet" type="text/css" />
+    <link href="Acronym.css" rel="stylesheet" type="text/css" />
+    <link href="Dictionary.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="">
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="FlowTime.js" defer></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="Bigbox">
+      <div class="Projectname"><h3>Student Reminder</h3></div>
+      <dic class="list">list</div>
+      <div class="menu">
+
+        
+        <nav>
+        <input id="sidenav" type="checkbox">
+        <button type="Menu">Menu</button>
+        <ul class="link">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Kanban">Kanban Board</a></li>
+        <li><a href="#Pomodoro">Pomodoro Timer</a></li>
+        <li><a href="#Music">Music Player</a></li>
+        <li><a href="#FlowTime">Flow Time Tracker</a></li>
+        <li><a href="#Acronym">Acronym Maker</a></li>
+        <li><a href="#Dictionary">Dictionary</a></li>
+  	    </ul>
+        </nav>
+         </div>
+      </div>
+    
+    <section id ="Home">
+    <nav>
+      <div class= "Banner">
+      <img class="backgroundimg" src="img/" alt="">
+      
+      <ul class="links">
+        <li><a href="#Kanban">Kanban Board</a></li>
+        <li><a href="#Pomodoro">Pomodoro Timer</a></li>
+        <li><a href="#Music">Music Player</a></li>
+        <li><a href="#FlowTime">Flow Time Tracker</a></li>
+        <li><a href="#Acronym">Acronym Maker</a></li>
+        <li><a href="#Dictionary">Dictionary</a></li>
+  	  </ul>
+  	  <label for="sidenav" class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      </div>
+      </nav>
+      
+      </section>
+      
+
+    
+      <section id="Kanban">
+      <div class = "box">
+        <h1>Kanban Board</h1><br>
+
+      </div>
+      </div>
+      </section>
+
+      <section id = "Pomodoro">
+      <div class = "box">
+        <h1>Pomodoro Timer</h1><br>
+
+      </div>
+      </section>
+
+      <section id="Music">
+        <div class = "box">
+        <h1>Music Player</h1><br>
+        <input>
+        <div class="search"></div>
+        <div class="playmusic"></div>
+        <div class="跨页"></div>
+        <table class="">
+        <audio preload id= "music" controls>
+          <source src= "music/">
+          </audio>
+      </div>
+      </div>
+      </section>
+
+
+      <section id= "FlowTime">
+        <div class= "timecard">
+      <div class = "box">
+        <h1>Flow Time Tracker</h1><br>
+        <div id="showtime">
+        <span>00</span>
+				<span>:</span>
+				<span>00</span>
+				<span>:</span>
+				<span>00</span>
+			</div>
+      	<div class="bnt">
+				<button>Record</button>
+				<button>Start</button>
+        <button>Stop</button>
+        <button>Replay</button>
+			</div>
+			<!--记录显示的次数-->
+			<div id="record">
+			</div>
+        
+      </div>
+      </div>
+      </section>
+
+
+      <section id="Acronym">
+      <div class = "box">
+        <h1>Acronym Maker</h1><br>
+
+      </div>
+      </section>
+
+      <section id="Dictionary">
+      <div class = "box">
+        <h1>Dictionary</h1><br>
+
+      </div>
+      </section>
+
+
+
+
+  </body>
+</html>
