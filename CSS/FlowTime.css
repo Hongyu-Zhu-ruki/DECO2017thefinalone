@@ -1,0 +1,25 @@
+
+.showtime{
+  position: center;
+  width: 50%;
+  background: burlywood;
+  padding: 100px 10px;
+  margin: 10px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.bnt{
+  width: 100%;
+  text-align: center;
+  /* display: flex; */
+}
+.bnt button{
+  background-color:rgb(22, 0, 82);
+  border: black;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 5px white;
+}
+.record{
+  height: 100px;
+}

@@ -1,0 +1,131 @@
+.headings {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-bottom: 500px;
+}
+
+.headings h1 {
+  width: 33%;
+  text-align: center;
+  height: 180px;
+}
+
+.headings h1 div {
+  margin: 0 auto;
+  width: 150px;
+  height: 160px;
+  /* background-color: aqua; */
+  border-radius: 30px;
+  /* line-height: 160px; */
+  overflow: hidden;
+}
+
+.headings h1 section {
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.headings h1 div img {
+  width: 50%;
+  height: 100px;
+}
+
+nav.link {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+nav.link li {
+  list-style: none;
+}
+
+nav.link li:hover {
+  transition: 0.3s;
+}
+
+a {
+  
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  /* padding: 5px 30px;  */
+  /* line-height: 40px; */
+}
+
+/* a:after {
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5;
+}
+
+a:hover {
+  color: white;
+  background: rgba(20, 75, 158, 0.644);
+  transition: 0.3s ease;
+}
+
+a:hover:after {
+  width: 100%;
+} */
+
+/* nav.link.a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+
+} */
+
+.Bigbox {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url(img/homepage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.timecard button {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  margin: 15px 15px;
+  font-weight: bold;
+  border: 2px solid rgb(0, 0, 0);
+  background: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* button:hover span {
+  color: beige;
+  transition: 1s;
+}
+
+button:hover {
+  color: rgb(140, 140, 248);
+} */
+
+
+.box {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  position: relative;
+  /* background: rgba(131, 234, 252, 0.829); */
+}

@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.music {
+	width: 500px;
+	height: 40px;
+	background: #242424;
+	margin: 20px auto;
+	line-height: 40px;
+	opacity: 0.8;
+}
+
+.musicL {
+	float: left;
+}
+
+.iconfont {
+	color: #fff;
+	margin: 0 10px
+}
+
+.progress {
+	float: left;
+	font-size: 10px;
+	width: 300px;
+	height: 40px;
+	margin-left: 10px;
+	color: #fff;
+}
+
+.progress span {
+	margin: 0 4px;
+	color: #fff;
+}
+
+.load {
+	display: inline-block;
+	width: 200px;
+	height: 5px;
+	background: rgb(78, 44, 70);
+	cursor: pointer;
+	position: relative;
+	top: -2px;
+}
+
+.circle {
+	width: 0px;
+	height: 5px;
+	background: rgb(139, 159, 223);
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.round {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgb(234, 4, 255);
+	left: 0px;
+	border: 3px solid #fff;
+	top: -5px;
+	margin-left: -7px;
+}
+
+.music_list {
+	width: 500px;
+	background: rgb(182, 182, 255);
+	margin: -20px auto;
+	/* border-top: 2px solid #cb5cff; */
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.music_list li {
+	height: 40px;
+	border-bottom: 1px solid rgb(182, 182, 255);
+	line-height: 40px;
+	cursor: pointer;
+	color: white;
+}
+
+.music_list li span {
+	margin: 0 10px;
+	width: 220px;
+	float: left;
+}
+
+.music_list .title span {
+	font-size: 14px;
+}
+
+.music_list li:hover {
+	border-left: 2px solid rgb(182, 182, 255);
+	background: #ffffff80;
+	color: rgb(233, 164, 164);
+}
+
+.music_list ul .title:hover {
+	border-left: 0px;
+	border-top: 2px solid rgb(182, 182, 255);
+	background: rgb(182, 182, 255);
+}
+
+.music .musicL i {
+	cursor: pointer;
+}

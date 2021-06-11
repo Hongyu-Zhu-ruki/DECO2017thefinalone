@@ -1,0 +1,217 @@
+body {
+  background-image: url('../img/homepage.jpg');
+  background-size: 100% 100%;
+  padding-top: 150px;
+}
+
+nav {
+  background-color: #e7ebe8;
+  border-radius: 20px;
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.Projectname-title h1 {
+  font-size: 30px;
+}
+
+.Projectname {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.TaskManager {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.TaskManager-right {
+  background-color: rgb(182, 182, 255);
+  Opacity: 0.8;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+
+.TaskManager-left {
+  background-color: rgb(182, 182, 255);
+  Opacity: 0.8;
+  border-radius: 30px;
+  /* width: 80%; */
+  width: 60%;
+}
+
+#Pomodoro {
+  padding: 20px;
+  background-color: black;
+  Opacity: 0.7;
+  width: 50%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.timer input {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: #fff;
+}
+
+.timer span {
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.btn {
+  height: 40px;
+  width: 80px;
+}
+
+.Pomodoro-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Pomodoro-button button {
+  border-radius: 20px;
+  border: none;
+}
+
+iframe {
+  
+  width: 50%;
+  height: 700px;
+  margin: 0 auto;
+}
+.infoiframe{
+text-align: center;
+}
+#FlowTime {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #3e3dcd;
+  opacity: 0.7;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#showtime {
+  width: 200px;
+  height: 100px;
+  background-color: #3f3fce;
+  text-align: center;
+  line-height: 100px;
+  font-size: 25px;
+  opacity: 1;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+#record {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.newKanban {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.newKanban article {
+  height: 260px;
+  width: 200px;
+  position: relative;
+  background: linear-gradient(#ffad94, #ffe2b4);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.newKanban article header {
+  background-color: #61a5b4;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 80px;
+}
+
+.newKanban article textarea {
+  width: 100%;
+  outline: none;
+  resize: none;
+  border: none;
+  background: none;
+  /* height: 180px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px; */
+  box-sizing: border-box;
+}
+
+.newKanban article input {
+  background: none;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.aaaaa {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.aaaaa footer {
+  width: 50px;
+  height: 25px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 40px;
+  margin: 10px 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #ff715f;
+}
+
+.aaaaa footer img {
+  width: 50%;
+  height: 100%;
+}
+
+.kanbanInput,
+.kanbanInput2,
+.kanbanInput3 {
+  padding: 0 10px;
+  height: 170px;
+  overflow: auto;
+}
+
+.bbbbbb {
+  position: relative;
+}
+
+.shanchu {
+  position: absolute;
+  right: -5px;
+  top: 3px;
+}
+
+h1 {
+  margin: 30px 0;
+}
