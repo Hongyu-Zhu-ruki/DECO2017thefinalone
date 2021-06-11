@@ -22,3 +22,5 @@
  server from: https://canvas.sydney.edu.au/courses/30963/pages/week-7-summary?module_item_id=1166522
  
  MusicPlayer(WHICH I DIDN'T USE, BUT I LIKE IT SO I LEAVE IT INSIDE MY FILE): 用JS写一个简单的音乐播放器/ LovelyBoy7/ 2018-09-21/https://blog.csdn.net/weixin_42535823/article/details/82801236
+
+Also, I used the version control to record my history, it should record all of my hardworking, but it failed to connect, I don't know why so I leave my repl here too: https://replit.com/@Hongyu5082/DECO2017thefinalone#index.html
