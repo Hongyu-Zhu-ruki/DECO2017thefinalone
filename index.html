@@ -1,143 +1,336 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Hongyu Zhu</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="Kanban.css" rel="stylesheet" type="text/css" />
-    <link href="Pomodoro.css" rel="stylesheet" type="text/css" />
-    <link href="Music.css" rel="stylesheet" type="text/css" />
-    <link href="FlowTime.css" rel="stylesheet" type="text/css" />
-    <link href="Acronym.css" rel="stylesheet" type="text/css" />
-    <link href="Dictionary.css" rel="stylesheet" type="text/css" />
-    <link href="" rel="">
-    <script src="jquery-1.12.4.min.js"></script>
-    <script src="FlowTime.js" defer></script>
-  </head>
-  <body>
-    <script src="script.js"></script>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hongyu Zhu</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/style2.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/Kanban.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/Pomodoro.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/Music.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/FlowTime.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/Acronym.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/Dictionary.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/TaskManager.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/index.css" rel="stylesheet" type="text/css">
+  <script src="JS/jquery-1.12.4.min.js">
+  </script>
+  <script src="JS/FlowTime.js" defer>
+
+  </script>
+  <script src="JS/Pomodoro.js" defer>
+
+  </script>
+  <script src="JS/Acronym.js" defer>
+
+  </script>
+  <script src="JS/Music.js" defer>
+
+  </script>
+  <script src="JS/Kanban.js" defer>
+
+  </script>
+  <script src="JS/TaskManager.js" defer>
+
+  </script>
+  <script src="JS/script.js">
+
+  </script>
+
+</head>
+
+<body>
+
+  <section id="Home">
     <div class="Bigbox">
-      <div class="Projectname"><h3>Student Reminder</h3></div>
-      <dic class="list">list</div>
-      <div class="menu">
-
-        
+      <div>
         <nav>
-        <input id="sidenav" type="checkbox">
-        <button type="Menu">Menu</button>
-        <ul class="link">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Kanban">Kanban Board</a></li>
-        <li><a href="#Pomodoro">Pomodoro Timer</a></li>
-        <li><a href="#Music">Music Player</a></li>
-        <li><a href="#FlowTime">Flow Time Tracker</a></li>
-        <li><a href="#Acronym">Acronym Maker</a></li>
-        <li><a href="#Dictionary">Dictionary</a></li>
-  	    </ul>
+          <div class="Projectname">
+            <div class="Projectname-title">
+              <h1>Student Reminder</h1>
+              <h5>Our goal is to help you complete your homework on time </h5>
+            </div>
+            <div class="container">
+              <!-- <a href="#home">Home</a> -->
+              <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Lists</button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="#home">Homepage</a>
+                  <a href="#Task Manager">Task Manager</a>
+                  <a href="#Kanban">Kanban Board</a>
+                  <a href="#Music">Music Player</a>
+                  <a href="#Pomodoro">Pomodoro</a>
+                  <a href="#FlowTime">Flow Time Tracker</a>
+                  <a href="#Acronym">Acronym</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </nav>
-         </div>
-      </div>
-    
-    <section id ="Home">
-    <nav>
-      <div class= "Banner">
-      <img class="backgroundimg" src="img/" alt="">
-      
-      <ul class="links">
-        <li><a href="#Kanban">Kanban Board</a></li>
-        <li><a href="#Pomodoro">Pomodoro Timer</a></li>
-        <li><a href="#Music">Music Player</a></li>
-        <li><a href="#FlowTime">Flow Time Tracker</a></li>
-        <li><a href="#Acronym">Acronym Maker</a></li>
-        <li><a href="#Dictionary">Dictionary</a></li>
-  	  </ul>
-  	  <label for="sidenav" class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </label>
-      </div>
-      </nav>
-      
-      </section>
-      
+        <section id="home">
+          <div class="heading">
+            <!-- <h2>You can do it!</h2> -->
+            <div class="headings">
+              <h1>
+                <div style="background-color: #00949d;">
+                  <section>
+                    <img src="./img/noun_Calendar Tasks Manager_878575.png" alt="">
+                  </section>
 
-    
-      <section id="Kanban">
-      <div class = "box">
-        <h1>Kanban Board</h1><br>
-
+                  <a href="#Task Manager">Task Manager</a>
+                </div>
+              </h1>
+              <h1>
+                <div style="background-color: #f7931e;">
+                  <section>
+                    <img src="./img/noun_Music_2376552.png" alt="">
+                  </section>
+                  <a href="#Music">Music player</a>
+                </div>
+              </h1>
+              <h1>
+                <div style="background-color: #d9e021;">
+                  <section>
+                    <img src="./img/noun_tomato_3562478 (1).png" alt="">
+                  </section>
+                  <a href="#Pomodoro">Pomodoro Timer</a>
+                </div>
+              </h1>
+              <h1>
+                <div style="background-color: #ff7bac;">
+                  <section>
+                    <img src="./img/noun_Stopwatch_921590.png" alt="">
+                  </section>
+                  <a href="#FlowTime">Flow Time Tracker</a>
+                </div>
+              </h1>
+              <h1>
+                <div style="background-color: #908aff;">
+                  <section>
+                    <img src="./img/noun_Calendar Tasks Manager_878575.png" alt="">
+                  </section>
+                  <a href="#Acronym">Acronym Maker</a>
+                </div>
+              </h1>
+              <h1>
+                <div style="background-color: #8cc63f;">
+                  <section>
+                    <img src="./img/noun_dictionary_1657424.png" alt="">
+                  </section>
+                  <a href="#Kanban">Kanban Board</a>
+                </div>
+              </h1>
+            </div>
+          </div>
+        </section>
       </div>
+    </div>
+  </section>
+  <h1>Task Manager</h1>
+  <section id="Task Manager">
+    <div class="TaskManager">
+      <div class="TaskManager-right">
+        <div>
+          <h2>Task name</h2>
+          <input id="id" type="text" placeholder="Input Task name">
+        </div>
+        <div>
+          <h2>Due Date</h2>
+          <input id="duedate" type="date" placeholder="Due Date">
+        </div>
+        <div>
+          <h2>Priority</h2>
+          <select name="priority" id="shuruPriority">
+            <option value="low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+        <div>
+          <h2>Estimated Time</h2>
+          <input id="etime" type="number" placeholder="Estimated time">
+        </div>
+        <input id="btn_add" type="button" value="Add" />
       </div>
-      </section>
-
-      <section id = "Pomodoro">
-      <div class = "box">
-        <h1>Pomodoro Timer</h1><br>
-
+      <div class="TaskManager-left">
+        <table>
+          <caption>Task message</caption>
+          <tbody>
+            <th>Task name</th>
+            <th>Due Date</th>
+            <th>priority</th>
+            <th>Estimated time</th>
+            <th>operation</th>
+          </tbody>
+        </table>
       </div>
-      </section>
+    </div>
+    <!-- <h1>Task Manager</h1><br> -->
+  </section>
 
-      <section id="Music">
-        <div class = "box">
-        <h1>Music Player</h1><br>
-        <input>
-        <div class="search"></div>
-        <div class="playmusic"></div>
-        <div class="跨页"></div>
-        <table class="">
-        <audio preload id= "music" controls>
-          <source src= "music/">
-          </audio>
+  <h1>Kanban</h1>
+  <div>
+    <section id="Kanban" class="newKanban">
+      <div>
+        <article>
+          <header>TO DO</header>
+          <div class="kanbanInput ccc">
+            <div class="bbbbbb">
+              <input type="text" placeholder="写点什么吧">
+              <span class="shanchu">X</span>
+            </div>
+          </div>
+          <!-- <textarea placeholder="写点什么吧"></textarea> -->
+        </article>
+        <div class="aaaaa">
+          <footer id="jian1">
+            <img src="./img/减号.png" alt="">
+          </footer>
+          <footer id="jia1">
+            <img src="./img/加号.png" alt="">
+          </footer>
+        </div>
       </div>
+
+
+      <div>
+        <article>
+          <header>Doing</header>
+          <div class="kanbanInput2 ccc">
+            <div class="bbbbbb">
+              <input type="text" placeholder="写点什么吧">
+              <span class="shanchu">X</span>
+            </div>
+          </div>
+        </article>
+        <div class="aaaaa">
+          <footer id="jian2">
+            <img src="./img/减号.png" alt="">
+          </footer>
+          <footer id="jia2">
+            <img src="./img/加号.png" alt="">
+          </footer>
+        </div>
       </div>
-      </section>
 
+      <div>
+        <article>
+          <header>Done</header>
+          <div class="kanbanInput3 ccc">
+            <div class="bbbbbb">
+              <input type="text" placeholder="写点什么吧">
+              <span class="shanchu">X</span>
+            </div>
+          </div>
+        </article>
+        <div class="aaaaa">
+          <footer id="jian3">
+            <img src="./img/减号.png" alt="">
+          </footer>
+          <footer id="jia3">
+            <img src="./img/加号.png" alt="">
+          </footer>
+        </div>
+      </div>
 
-      <section id= "FlowTime">
-        <div class= "timecard">
-      <div class = "box">
-        <h1>Flow Time Tracker</h1><br>
-        <div id="showtime">
+    </section>
+  </div>
+  
+  <h1>Pomodoro Timer</h1>
+  <section id="Pomodoro">
+    <div id="PomodoroContainer">
+      <div id="work-timer" class="timer">
+        <input id="hyz_hour" value=" 25"><span>:</span>
+        <input id="hyz_minutes" value="05"><span>:</span>
+        <input id="hyz_second" value=" 15">
+      </div>
+      <div class="Pomodoro-button">
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+      </div>
+    </div>
+    <div class="edittime">
+
+    </div>
+  </section>
+
+  <h1>Music Player</h1><br>
+  <section id="Music">
+    <div class="box infoiframe">
+
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=6801786882&auto=1&height=430"></iframe>
+      <!-- <audio id="audio" autoplay="autoplay"></audio>
+
+      <div class="music_list">
+        <ul>
+          <li class="title"><span><b>Song list</b></span></li>
+        </ul>
+      </div>
+      <div class="music">
+        <div class="musicL">
+          <i class="iconfont icon-shangyishou">Last</i>
+          <span class="play" id="play">
+            <i class="iconfont icon-bofang">Play</i>
+          </span>
+          <i class="iconfont icon-xiayishou">Next</i>
+        </div>
+        <div class="progress">
+          <span class="start_time" id="start_time">00:00</span>
+          <div class="load" id="load">
+            <div class="circle" id="circle">
+              <div class="round" id="round">
+              </div>
+            </div>
+          </div>
+          <span class="total_time" id="total_time">00:00</span>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <h1>Flow Time Tracker</h1><br>
+  <section id="FlowTime">
+
+    <div class="timecard">
+      <div id="showtime">
         <span>00</span>
-				<span>:</span>
-				<span>00</span>
-				<span>:</span>
-				<span>00</span>
-			</div>
-      	<div class="bnt">
-				<button>Record</button>
-				<button>Start</button>
+        <span>:</span>
+        <span>00</span>
+        <span>:</span>
+        <span>00</span>
+      </div>
+      <div class="bnt">
+        <button>Record</button>
+        <button>Start</button>
         <button>Stop</button>
         <button>Replay</button>
-			</div>
-			<!--记录显示的次数-->
-			<div id="record">
-			</div>
-        
       </div>
+      <!--记录显示的次数-->
+      <div id="record" style="overflow: auto;;width:100%; height:100px;">
       </div>
-      </section>
+
+    </div>
+  </section>
 
 
-      <section id="Acronym">
-      <div class = "box">
-        <h1>Acronym Maker</h1><br>
+  <section id="Acronym">
 
-      </div>
-      </section>
+    <h1>Acronym Maker</h1><br>
+    <form class="searchForm">
+      <h1>Acronym Maker</h1>
+      <input type="search" name="searchBox" id="wts" placeholder="word to search">
+      <input type="button" class="searchForm-button" name="submit" value="submit" onclick="wordSearch(wts.value)">
+      <input type="reset" class="searchForm-reset" value="reset" onclick="reloadPage()">
+    </form>
+    <div class="result">
+      <input id="test" style="margin:0 auto;width:50%;height:100px;padding: 20px;" value="" readonly />
+    </div>
 
-      <section id="Dictionary">
-      <div class = "box">
-        <h1>Dictionary</h1><br>
+  </section>
 
-      </div>
-      </section>
+</body>
 
-
-
-
-  </body>
 </html>
