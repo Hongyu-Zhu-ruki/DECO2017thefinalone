@@ -68,13 +68,13 @@ http.createServer(function(req, res) {
       fs.createReadStream(filename).pipe(res);
     }else{
       res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write("<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>文件列表</title><body><h2>文件列表</h2><br>");
+      res.write("<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>File List</title><body><h2>File List</h2><br>");
       fs.readdir(filename,function(err,files){
         if(files.length == 0 || err){
           res.write("No files available.");
         }else{
           var i, p;
-          res.write("<table border='2px' cellpadding='5px'><tr><td><b>文件名</b></td><td><b>大小</b></td></tr>");
+          res.write("<table border='2px' cellpadding='5px'><tr><td><b>File Name</b></td><td><b>Size</b></td></tr>");
           for(i = 0; i < files.length; i++){
             p = path.join(filename,files[i]);
             res.write(util.format("<tr><td><a href='\%s'>%s</a></td><td> %d kb </td></tr>",p.slice(rootpath.length),files[i],fs.lstatSync(p).size / 1000.0));
